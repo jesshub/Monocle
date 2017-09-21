@@ -109,7 +109,7 @@ function getPopupContent (item) {
         content += 'Move 1: ' + item.move1 + ' ( ' + item.damage1 + ' dps )<br>';
         content += 'Move 2: ' + item.move2 + ' ( ' + item.damage2 + ' dps )<br>';
         content += 'IV: ' + item.atk + ' atk, ' + item.def + ' def, ' + item.sta + ' sta<br>';
-	content += 'CP: ' + item.cp + '<br>'
+        content += 'CP: ' + item.cp + '<br>'
     } else {
         content += '<br>Disappears in: ' + expires_at + '<br>';
     }
