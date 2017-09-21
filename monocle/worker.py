@@ -1026,6 +1026,7 @@ class Worker:
             pokemon['height'] = pdata.height_m
             pokemon['weight'] = pdata.weight_kg
             pokemon['gender'] = pdata.pokemon_display.gender
+            pokemon['cp'] = pdata.cp
         except KeyError:
             self.log.error('Missing encounter response.')
         self.error_code = '!'
